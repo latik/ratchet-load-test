@@ -1,0 +1,11 @@
+{
+  "name": "ratchet-test",
+  "dependencies": {
+    "socket-to-me": "^1.0.2",
+    "websocket": "^1.0.32"
+  },
+  "scripts": {
+    "test": "node client.js",
+    "sockme": "sockme ws://localhost:8080/ws"
+  }
+}
