@@ -1,1 +1,1 @@
-web: bash server.sh vendor/bin/heroku-php-nginx -C nginx_app.conf
+web: bash server.sh bin/start-nginx-solo
