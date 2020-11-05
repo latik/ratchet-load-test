@@ -1,5 +1,5 @@
 var desiredConnections = 50000
-var serverUrl = 'ws://localhost:8080/ws'
+var serverUrl = 'ws://ratchet-load-test.herokuapp.com/ws'
 
 var WebSocketClient = require('websocket').client
 var connectionsCount = 0

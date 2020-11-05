@@ -1,5 +1,7 @@
 {
     "require": {
+        "php": "^7.4",
+        "ext-event": "*",
         "cboden/ratchet": "^0.4.3"
     }
 }
